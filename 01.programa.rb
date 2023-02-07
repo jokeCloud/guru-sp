@@ -64,13 +64,13 @@ puts minha_string
     conversões
     .to_i, .to_f, .to_s
 =end
-var1 = 5
-var2 = '2'
-puts var1 . var2.to_i
+# var1 = 5
+# var2 = '2'
+# puts var1 . var2.to_i
 
-a = 'olá '
-a << 'mundo'
-puts a
+# a = 'olá '
+# a << 'mundo'
+# puts a
 
 =begin 
     << marca o início de seu literal string e
@@ -85,3 +85,26 @@ E uma segunda linha
 FIM_STR  
 puts a
 =end  
+
+puts '#####################################'
+
+cargos = {
+    'project-manager': 0,
+    'team-lead': 1,
+    'backend-developer': 4,
+    'frontend-developer': 2,
+    'ux-designer': 1,
+    'designer': 0,
+    'devops': 1,
+    'qa-engineer': 1,
+}
+
+cargos.each do |cargo, medals|
+    if medals != 0
+        puts "#{cargo} - #{'🥇' * medals}"
+    else
+        puts "#{cargo} - 0"
+    end    
+end
+
+
