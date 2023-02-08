@@ -1,0 +1,5 @@
+# Logfile created on 2023-02-08 09:40:47 -0300 by logger.rb/v1.4.3
+D, [2023-02-08T09:40:47.510958 #16644] DEBUG -- : Numerator: 10, denominador 2
+D, [2023-02-08T09:41:46.650227 #16771] DEBUG -- : Numerator: 10, denominador 2
+D, [2023-02-08T09:41:46.650441 #16771] DEBUG -- : Numerator: 10, denominador 0
+E, [2023-02-08T09:41:46.650551 #16771] ERROR -- : Erro na divisão!: divided by 0
